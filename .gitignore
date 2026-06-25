@@ -1,0 +1,11 @@
+# cocotb simulation artifacts
+sim_build/
+*.vcd
+results.xml
+
+# Python & Linter caches
+__pycache__/
+.ruff_cache/
+cocotb_venv/
+
+.vscode/
