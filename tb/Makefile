@@ -15,7 +15,7 @@ VERILOG_SOURCES = \
 	$(PWD)/../rtl/top.sv
 
 TOPLEVEL ?= top
-MODULE ?= tb_core
+MODULE ?= tb_top
 SIM_BUILD ?= sim_build_$(TOPLEVEL)
 
 EXTRA_ARGS += --trace --trace-structs -Wno-CASEINCOMPLETE
