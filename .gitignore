@@ -1,0 +1,15 @@
+# cocotb simulation artifacts
+sim_build/
+sim_build_top/
+*.vcd
+results.xml
+
+# Python & Linter caches
+__pycache__/
+.ruff_cache/
+cocotb_venv/
+
+# the sv2v converted file
+top_synth.v
+
+.vscode/
