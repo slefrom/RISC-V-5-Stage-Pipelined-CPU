@@ -61,9 +61,6 @@ end
     endcase
   end
 
-  // MEM-stage result mux (mirrors the WB mux) so that forwarding from MEM
-  // sends the actual result for LUI (imm) and JAL/JALR (PC+4), not the ALU
-  // output. result_src 2'b01 (loads) is covered by the load-use stall.
   always_comb begin
     case (ex_mem_ctrl.result_src)
       2'b10:   mem_result = ex_mem_pc_plus4;
