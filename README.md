@@ -29,4 +29,7 @@ A 5 stage pipelined processor I made, with full hazard detection, forwarding, an
 
 ## 3. Some images during the process:
 
-will add!
+<img width="1099" height="1099" alt="final_all" src="https://github.com/user-attachments/assets/9a3402d4-36da-4f6a-b6b8-1a4e42f34234" />
+
+Final Layout
+
