@@ -2,6 +2,8 @@
 
 A 5 stage pipelined processor I made, with full hazard detection, forwarding, and branch penalty resolution. Verified Using cocotb, and ran it through OpenROAD ASIC flow, on SkyWater 130 nm HD using the OpenROAD-flow-scripts RTL-GDSII flow. 
 
+A design decision I made: uses_rs1/uses_rs2 flags in the hazard unit to prevent false stalls
+
 ---
 
 ## 2. Implementation Results (PPA Metrics)
