@@ -29,7 +29,21 @@ A 5 stage pipelined processor I made, with full hazard detection, forwarding, an
 
 ## 3. Some images during the process:
 
+Final Layout:
+
 <img width="1099" height="1099" alt="final_all" src="https://github.com/user-attachments/assets/9a3402d4-36da-4f6a-b6b8-1a4e42f34234" />
 
-Final Layout
+Clock Tree Synthesis Layout:
+
+<img width="1099" height="1099" alt="cts_default_clk_layout" src="https://github.com/user-attachments/assets/cc2c1463-6c11-4d72-847f-a934c5026b71" />
+
+Worst Path:
+
+<img width="1099" height="1099" alt="final_worst_path" src="https://github.com/user-attachments/assets/ee49d6f1-414a-403b-bfed-a028ce761f34" />
+
+
+
+
+
+
 
